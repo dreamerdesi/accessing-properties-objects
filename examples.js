@@ -6,15 +6,14 @@ let lunchOrder = {
     drink: 'Iced Tea',
     entree: 'Macaroni and Cheese',
     lunchGuests: 4,
-    desertOptions: ['Chocolate Cake', 'Ice Cream', 'Pudding']
+    dessertOptions: ['Chocolate Cake', 'Ice Cream', 'Pudding']
 };
 
 // Access different properties with dot notation
 let lunchEntree = lunchOrder.entree;
 console.log(lunchEntree);
-
-let desertArray = lunchOrder.desertOptions;
-console.log(desertArray);
+let dessertArray = lunchOrder.desertOptions;
+console.log(dessertArray);
 
 
 // Accessing properties of an object with bracket notations
@@ -25,7 +24,7 @@ let dinnerOrder = {
     drink: 'Martini',
     entree: 'Lobster',
     dinnerGuests: 2,
-    desertOptions: ['Cheesecake', 'Cake']
+    dessertOptions: ['Cheesecake', 'Cake']
 };
 
 let checkReservation = 'Has Reservation';
